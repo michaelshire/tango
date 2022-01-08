@@ -1,0 +1,44 @@
+{
+    "accountIdentifier": "Account Identifier",
+    "amountCharged": {
+        "currencyCode": "string",
+        "exchangeRate": 123,
+        "fee": 234,
+        "total": 345,
+        "value": 456
+        },
+    "campaign": "Reward Campaign",
+    "createdAt": "Created Date",
+    "customerIdentifier": "Customer Identifier",
+    "denomination": {
+        "currencyCode": "string",
+        "exchangeRate": 567,
+        "fee": 678,
+        "total": 789,
+        "value": 890
+        },
+    "emailSubject": "Email Subject",
+    "externalRefID": "External Reference ID",
+    "message": "Email Message",
+    "recipient": {
+        "email": "Email",
+        "firstName": "First Name",
+        "lastName": "Last Name"
+        },
+    "redemptionInstructions": "Redemption Instructions",
+    "referenceOrderID": "Reference Order ID",
+    "reward": {
+        "credentialList": "Verbose list of credentials",
+        "credentials": "Credentials as a map with String label key and credential value String",
+        "redemptionInstructions": "Redemption Instructions"
+        },
+    "rewardName": "Reward Name",
+    "sendEmail": true,
+    "sender": {
+        "email": "Email",
+        "firstName": "First Name",
+        "lastName": "Last Name"
+        },
+    "status": "Reward Status",
+    "utid": "Utid"
+}
